@@ -1,75 +1,26 @@
-# Nuxt Minimal Starter
+# Nuxt + Tailwind CSS v3 Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A minimal starter template for building modern web applications using [Nuxt](https://nuxt.com/), [Tailwind CSS v4](https://tailwindcss.com/), [nuxt-lucide-icons](https://github.com/kevinmarrec/nuxt-lucide-icons), and [@nuxtjs/i18n](https://i18n.nuxtjs.org/).
 
-## Setup
+## 🚀 Features
 
-Make sure to install dependencies:
+* ✅ Nuxt 3
+* 🎨 Tailwind CSS v3 (JIT enabled)
+* 🌍 Internationalization with `@nuxtjs/i18n`
+* 💡 Icon support via `nuxt-lucide-icons`
+* 🧩 Scalable folder structure
+* ⚡️ Optimized for performance
+
+## 📦 Installation
+
+## ⚙️ Setup Instructions
 
 ```bash
-# npm
+# Clone the repo
+git clone https://github.com/hanysaadeldeen/Nuxt-Start-Project.git
+
+# Navigate into the project folder
+cd Nuxt-Start-Project
+
+# Install dependencies
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
