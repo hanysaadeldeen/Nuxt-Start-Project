@@ -4,18 +4,14 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   modules: ["nuxt-lucide-icons", "@nuxtjs/i18n"],
-  i18n: {
-    defaultLocale: "en",
+   i18n: {
+    defaultLocale: "ar",
     strategy: "prefix_except_default",
     locales: [
-      { code: "en", name: "English", file: "en.json" },
       { code: "ar", name: "Arabic", file: "ar.json" },
+      { code: "en", name: "English", file: "en.json" },
     ],
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: "i18n_redirected",
-      redirectOn: "root",
-    },
+    detectBrowserLanguage: false,
   },
   app: {
     head: {
