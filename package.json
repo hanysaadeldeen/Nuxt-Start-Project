@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "@nuxtjs/i18n": "^9.2.0",
+    "aos": "^2.3.4",
     "nuxt": "^3.17.3",
     "nuxt-lucide-icons": "^1.0.5",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.1"
+    "vue-router": "^4.5.1",
+    "vue3-marquee": "^4.2.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",

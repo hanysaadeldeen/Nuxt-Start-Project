@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   modules: ["nuxt-lucide-icons", "@nuxtjs/i18n"],
-   i18n: {
+  i18n: {
     defaultLocale: "ar",
     strategy: "prefix_except_default",
     locales: [
@@ -21,6 +21,14 @@ export default defineNuxtConfig({
           rel: "icon",
           type: "image/png",
           href: "/LogoTap.svg",
+        },
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap",
+        },
+        {
+          rel: "stylesheet",
+          href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css",
         },
       ],
       title: "",
