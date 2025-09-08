@@ -4,6 +4,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   modules: ["nuxt-lucide-icons", "@nuxtjs/i18n"],
+    components: [
+    {
+      path: "~/components",
+      pathPrefix: false,
+    },
+  ],
   i18n: {
     defaultLocale: "ar",
     strategy: "prefix_except_default",
